@@ -1,1 +1,8 @@
 # library
+This expanded Library Management System in Java is a console-based project that demonstrates how object-oriented programming can be applied to solve real-world problems. The system is built around three main classes: Book, User, and Library. The Book class stores details like title, author, and ISBN, along with availability status. The User class keeps track of user information and the list of books they have borrowed. The Library class acts as the central controller that manages both books and users, providing functions such as adding, searching, borrowing, and returning books.
+
+I used ArrayLists for dynamic data storage, allowing the system to grow as more books and users are added. To make the program user-friendly, I implemented a menu-driven interface where users can choose actions like adding a book, registering a user, borrowing, or returning books. The system also prevents errors, such as borrowing a book that is already borrowed or trying to return a book that was never borrowed.
+
+This project gave me hands-on experience with object-oriented principles like encapsulation, inheritance, and abstraction. It also helped me understand how to structure code into separate classes that represent real-world entities. The system, though simple, can be extended further by adding file handling or database connectivity to store records permanently, making it more practical for real use.
+
+Overall, this project enhanced my Java skills by combining data structures, user input handling, and object-oriented design into a single working application that automates a library’s basic operations.
